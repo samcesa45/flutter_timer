@@ -1,17 +1,21 @@
 # flutter_timer
 
-A new Flutter project.
+A simpler Count Down Timer Application.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+A play functionality to start the Timer
+A pause functionality to pause the Timer
+A resume functionality to resume the Timer
+A reset functionality to reset the Timer
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# State Management (Bloc Pattern) 
+Cubit was extensively used to manage the application state.
+Stream to control how The Timer Ticks and also to control 
+each of its state at that point in time.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# flutter_timer
+# you can clone the application  using git clone https://github.com/samcesa45/flutter_timer.git 
+and run flutter pub get to install all dependencies
+
+
